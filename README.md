@@ -126,15 +126,6 @@
             return 1;
         }
 
-        // Set render color to blue
-        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-
-        // Clear the window with the render color
-        SDL_RenderClear(renderer);
-
-        // Update the screen
-        SDL_RenderPresent(renderer);
-
         SDL_Event e;
         bool quit = false;
         while (!quit){
@@ -149,6 +140,14 @@
                     quit = true;
                 }
             }
+            // Set render color to blue
+            SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+
+            // Clear the window with the render color
+            SDL_RenderClear(renderer);
+
+            // Update the screen
+            SDL_RenderPresent(renderer);
         }
 
         // Clean up resources
