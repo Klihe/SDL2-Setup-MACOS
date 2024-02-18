@@ -91,10 +91,10 @@
     COMPILER_FLAGS = -std=c++11 -Wall -O0 -g
     LINKER_FLAGS = -lSDL2 -lSDL2_image -lSDL2_ttf
 
-all:
-	$(CC) $(COMPILER_FLAGS) $(LINKER_FLAGS) $(INCLUDE_PATHS) $(LIBRARY_PATHS) $(SRC_FILES) -o $(BUILD_DIR)/$(OBJ_NAME)
     all:
         $(CC) $(COMPILER_FLAGS) $(LINKER_FLAGS) $(INCLUDE_PATHS) $(LIBRARY_PATHS) $(SRC_FILES) -o $(BUILD_DIR)/$(OBJ_NAME)
+        all:
+            $(CC) $(COMPILER_FLAGS) $(LINKER_FLAGS) $(INCLUDE_PATHS) $(LIBRARY_PATHS) $(SRC_FILES) -o $(BUILD_DIR)/$(OBJ_NAME)
     ```
 
 1.  Code for main.cpp
