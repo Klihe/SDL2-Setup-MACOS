@@ -72,7 +72,7 @@
     into lib: `ln -s /opt/homebrew/Cellar/sdl2_image/2.8.2/lib ./lib/SDL2_image`
    ## SDL2_ttf
     into include: `ln -s /opt/homebrew/Cellar/sdl2_ttf/2.22.0/include/SDL2 ./include/SDL2_ttf`\
-    into lib: `ln -s /opt/homebrew/Cellar/sdl2_ttf/2.22.0/lib ./lib/SDL2_image`
+    into lib: `ln -s /opt/homebrew/Cellar/sdl2_ttf/2.22.0/lib ./lib/SDL2_ttf`
 
 8.  Create main.pp and Makefile: 
     ```
