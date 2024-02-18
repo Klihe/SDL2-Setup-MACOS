@@ -15,7 +15,7 @@
 │   ├── SDL2_image -> /opt/homebrew/Cellar/sdl2_image/2.8.2/lib
 │   └── SDL2_ttf -> /opt/homebrew/Cellar/sdl2_ttf/2.22.0/lib
 └── src
-    └── main.c
+    └── main.cpp
 ```
 # Steps
 
